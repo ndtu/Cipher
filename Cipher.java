@@ -15,6 +15,16 @@ public class Cipher {
 } 
 }
     public static boolean isLowerCase(String str) {
-        return true;
-    }
+        Scanner next2 = new Scanner(System.in);
+        String third = next2.nextLine();
+        char[] CharacterArray = third.toCharArray();
+        for(int i = 0; i < CharacterArray.length; i ++) {
+            if(!Character.isLowerCase(CharacterArray[i])) {
+            return false;
+        }
+       
 }
+          return true;
+}
+}
+
