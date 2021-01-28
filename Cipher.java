@@ -19,12 +19,12 @@ public class Cipher {
         String third = next2.nextLine();
         char[] CharacterArray = third.toCharArray();
         for(int i = 0; i < CharacterArray.length; i ++) {
-            if(!Character.isLowerCase(CharacterArray[i])) {
-            return false;
+            if(Character.isLowerCase(CharacterArray[i])) {
+            return true;
         }
        
 }
-          return true;
+          return false;
 }
 }
 
