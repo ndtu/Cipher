@@ -37,8 +37,8 @@ if it is lowercased. If it is, then it returns true, if not, it returns false.
         Scanner next2 = new Scanner(System.in);
         String third = next2.nextLine();
         char[] CharacterArray = third.toCharArray();
-        for(int i = 0; i < CharacterArray.length; i ++) {
-            if(Character.isLowerCase(CharacterArray[i])) {
+        for(int x = 0; x < CharacterArray.length; x ++) {
+            if(Character.isLowerCase(CharacterArray[x])) {
             return true;
         }
        
